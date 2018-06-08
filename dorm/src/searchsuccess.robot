@@ -23,7 +23,7 @@ ${URL}     localhost:8080/sckdorm
     Input Text    id=search_textbox    ละออเพลส
    
 กดค้นหา
-    Click Element    searchbutton
+    Click Element    id=searchbutton
 
 แสดงรายชื่อหอพักที่ต้องการ
      Wait Until Page Contains    ละออเพลส
